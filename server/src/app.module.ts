@@ -10,9 +10,9 @@ import { IntroduceModule } from "./introduce/introduce.module";
 import { ProductModule } from "./product/product.module";
 import { SocialModule } from "./social/social.module";
 import { NewModule } from "./new/new.module";
-import { HealthModule } from "./health/health.module";
 import { ACLModule } from "./auth/acl.module";
 import { AuthModule } from "./auth/auth.module";
+import { HealthModule } from "./health/health.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
 import { MorganModule } from "nest-morgan";
 import { ConfigModule, ConfigService } from "@nestjs/config";
@@ -34,9 +34,9 @@ import { GraphQLModule } from "@nestjs/graphql";
     ProductModule,
     SocialModule,
     NewModule,
-    HealthModule,
     ACLModule,
     AuthModule,
+    HealthModule,
     SecretsManagerModule,
     MorganModule,
     ConfigModule.forRoot({ isGlobal: true }),
